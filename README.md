@@ -8,7 +8,7 @@ Moments - Capture the moments and share it with the world!
 
 ## 🛠 Tech Stack
 
-- **Stacks:** Next.js, TypeScript
+- **Stacks:** Next.js, TypeScript, Tailwind CSS, React Query
 - **Database:** Supabase
 - **Authentication:** Supabase Authentication
 - **Hosting:** Render
@@ -17,8 +17,8 @@ Moments - Capture the moments and share it with the world!
 
 ## 📢 Features
 
-✅ User Authentication: JWT-based login and signup to ensure secure access.
-✅ Create, Read, Update, Delete Tweets (CRUD): A full-featured platform for posting, editing, deleting the posts.
+✅ User Authentication: JWT-based login and signup to ensure secure access using Supabase.  
+✅ Create, Read, and Delete Tweets (CRUD): A full-featured platform for posting, editing, deleting the posts.
 ✅ Responsive Design: Works seamlessly across mobile and desktop devices, ensuring a smooth user experience.
 ✅ Error Handling & Toast Notifications: Built-in error handling and notifications to improve the user experience.
 
@@ -38,13 +38,18 @@ cd moments
 ### Set up environment variables
 
 ```bash
+
 DATABASE_URL=
 NEXT_PUBLIC_SUPABASE_URL=
 NEXT_PUBLIC_SUPABASE_ANON_KEY=
 
 ```
 
-# Packages used:
+### Packages used:
 
-npm install axios
-npm install react-hot-toast & add Toatser in root file \*
+- npm i @supabase/ssr @supabase/supabase-js
+- npm i browser-image-compression
+- npm install axios
+- npm i @tanstack/react-query
+- npm install react-hot-toast & add Toatser in root file
+- npm i react-icons

@@ -33,7 +33,7 @@ export const AppContextProvider = ({
   serverUser: User | null;
 }) => {
   const [user, setUser] = useState<User | null>(serverUser);
-  const [loading, setLoading] = useState(!serverUser);
+  // const [loading, setLoading] = useState(!serverUser);
 
   const { auth } = supabaseClient();
 
@@ -46,7 +46,7 @@ export const AppContextProvider = ({
           data: { session },
         } = await auth.getSession();
         setUser(session?.user ?? null);
-        setLoading(false);
+        // setLoading(false);
       };
 
       getUser();
