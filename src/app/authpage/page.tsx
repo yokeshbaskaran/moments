@@ -95,7 +95,7 @@ const Authpage = () => {
   };
 
   return (
-    <section className="flex max-md:pt-10">
+    <section className="px-3 flex md:pt-2 max-md:pt-10">
       {/* left section */}
       <div className="hidden w-1/2 lg:flex">
         {/* heart wallpaper when desktop*/}

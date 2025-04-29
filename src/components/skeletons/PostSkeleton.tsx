@@ -12,7 +12,7 @@ const PostSkeleton = () => {
       </div>
 
       {/* Image */}
-      <div className="w-full h-[290px] bg-gray-300 animate-pulse"></div>
+      <div className="w-full h-[220px] bg-gray-300 animate-pulse"></div>
 
       {/* Post contents */}
       <div className="p-2 flex flex-col space-y-2">

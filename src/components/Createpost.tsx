@@ -112,7 +112,7 @@ const Createpost = () => {
           onSubmit={handleSubmit}
         >
           {/* <h2 className="py-3 text-2xl font-normal">Share the Moments</h2> */}
-          <h2 className="py-3 text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-[#4facfe] to-[#b600fe]">
+          <h2 className="py-3 text-2xl font-semibold italic bg-clip-text text-transparent bg-gradient-to-r from-[#4facfe] to-[#b600fe]">
             Share the Moments
           </h2>
 
@@ -171,7 +171,7 @@ const Createpost = () => {
 
                 <button
                   onClick={handleClick}
-                  className="w-fit my-2 p-2 flex items-center gap-1 border rounded-lg cursor-pointer"
+                  className="w-fit my-2 px-2 py-2 flex items-center gap-1 border rounded-lg cursor-pointer"
                   style={{
                     background: "linear-gradient(to right,#4facfe,#b600fe)",
                     textAlign: "left",
@@ -206,7 +206,7 @@ const Createpost = () => {
           </div>
 
           <button
-            className={`my-2 px-5 py-2 text-white rounded bg-green-700 ${
+            className={`my-2 px-7 py-2 text-white rounded bg-green-700 ${
               isPending ? "opacity-70" : ""
             } cursor-pointer`}
             type="submit"

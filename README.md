@@ -17,9 +17,12 @@ Moments - Capture the moments and share it with the world!
 
 ## 📢 Features
 
-✅ User Authentication: JWT-based login and signup to ensure secure access using Supabase.  
-✅ Create, Read, and Delete Tweets (CRUD): A full-featured platform for posting, editing, deleting the posts.
+✅ User Authentication: JWT-based login and signup to ensure secure access using Supabase.
+
+✅ Create, Read, and Delete Posts(CRUD): A full-featured platform for posting, viewing and deleting the post.
+
 ✅ Responsive Design: Works seamlessly across mobile and desktop devices, ensuring a smooth user experience.
+
 ✅ Error Handling & Toast Notifications: Built-in error handling and notifications to improve the user experience.
 
 - Inspired (UI) by Random user.

@@ -40,7 +40,7 @@ export default async function RootLayout({
             {/* app is here  */}
 
             <Navbar />
-            <main className="max-md:px-2">{children}</main>
+            <main>{children}</main>
           </AppContextProvider>
           <Toaster />
         </QueryProvider>
