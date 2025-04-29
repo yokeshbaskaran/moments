@@ -3,8 +3,6 @@
 import { supabaseServer } from "@/supabase/server";
 import { Login, Register } from "../../helpers/types";
 
-const CURRENT_LINK = process.env.LIVEPAGE_LINK;
-
 export async function registerAccount({ email, password, username }: Register) {
     // const data = { email, password, username }
     // console.log("user-data:", data);
@@ -15,7 +13,6 @@ export async function registerAccount({ email, password, username }: Register) {
         email,
         password,
         options: {
-            emailRedirectTo: CURRENT_LINK,
             data: {
                 username: username
             }
