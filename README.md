@@ -2,6 +2,8 @@
 
 Moments - Capture the moments and share it with the world!
 
+- Inspired (UI) by Random user.
+
 📌 **Project Live Demo:** [Tweets of Messages](https://moments-of-photos.onrender.com)
 
 ---
@@ -24,8 +26,6 @@ Moments - Capture the moments and share it with the world!
 ✅ Responsive Design: Works seamlessly across mobile and desktop devices, ensuring a smooth user experience.
 
 ✅ Error Handling & Toast Notifications: Built-in error handling and notifications to improve the user experience.
-
-- Inspired (UI) by Random user.
 
 ---
 

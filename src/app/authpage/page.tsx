@@ -95,7 +95,7 @@ const Authpage = () => {
   };
 
   return (
-    <section className="px-3 flex md:pt-2 max-md:pt-10">
+    <section className="px-3 flex max-md:pt-10">
       {/* left section */}
       <div className="hidden w-1/2 lg:flex">
         {/* heart wallpaper when desktop*/}
@@ -106,23 +106,33 @@ const Authpage = () => {
           alt="auth-logo"
           className="w-full max-w-[650px] mx-auto p-20"
         />
+
+        {/* <div
+          className="w-full mt-5 mb-3 lg:my-8 self-center bg-contain bg-no-repeat bg-center"
+          style={{
+            width: "340px",
+            height: "340px",
+            backgroundImage: "url('/heart.png')",
+          }}
+        ></div> */}
       </div>
 
       {/* right section */}
       <div className="w-full lg:w-1/2 my-3 py-5 lg:p-5">
-        <div className="mx-auto max-w-md flex flex-col justify-center space-y-3">
+        <div className="mx-auto max-w-md flex flex-col justify-center space-y-2">
           <div className="flex flex-col items-center lg:items-center justify-center">
-            {/* Camera logo  */}
+            <div className="mt-5 mb-3 lg:mt-8 lg:mb-5 self-center">
+              {/* Camera logo  */}
+              <Image
+                src="/logo.png"
+                alt="logo"
+                width={40}
+                height={40}
+                className="hidden md:flex"
+              />
+            </div>
 
-            <Image
-              src="/logo.png"
-              alt="logo"
-              width={40}
-              height={40}
-              className="mt-7 mb-3 lg:my-8 self-center"
-            />
-
-            <h2 className="my-1 font-semibold text-3xl">
+            <h2 className="mb-2 font-semibold text-3xl">
               {auth ? "Create an account" : "Login to your account"}
             </h2>
             <p className="text-gray-500 text-lg">
@@ -177,7 +187,7 @@ const Authpage = () => {
               }`}
               disabled={isPending}
             >
-              {isPending ? "Loading" : auth ? "register" : "login"}
+              {isPending ? "Loading..." : auth ? "register" : "login"}
             </button>
           </form>
 

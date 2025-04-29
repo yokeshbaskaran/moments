@@ -206,7 +206,7 @@ const Createpost = () => {
           </div>
 
           <button
-            className={`my-2 px-7 py-2 text-white rounded bg-green-700 ${
+            className={`my-2 px-5 py-2 text-white rounded bg-green-700 ${
               isPending ? "opacity-70" : ""
             } cursor-pointer`}
             type="submit"
